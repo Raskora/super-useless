@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "super-useless"
+version = "0.0.1"
+authors = [
+  { name="Raskora", email="Raskora@outlook.com" },
+]
+description = "This is a useless library, useless for nothing."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Raskora/super-useless"
+"Bug Tracker" = "https://github.com/Raskora/super-useless/issues"
